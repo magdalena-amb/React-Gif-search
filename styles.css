@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey&display=swap');
+
+body {
+    font-family: 'Happy Monkey', cursive;
+    background: #cc2b5e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.Search {
+        font-size: 20px;
+        width: 90%;
+        max-width: 350px;
+        height: 40px;
+        margin: 30px auto;
+        text-align: center;
+        background: #e6b7fc;
+        outline:none;
+        border: none;
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgb(236, 193, 250, .5);
+}
